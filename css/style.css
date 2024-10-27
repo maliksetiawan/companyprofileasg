@@ -766,7 +766,7 @@ section.app_section .img-box img {
 .info_section .info_links ul li a {
   display: inline-block;
   color: #ffffff;
-  margin: 2px 0;
+  margin: 10px 0;
 }
 
 .info_section .info_form form input {
