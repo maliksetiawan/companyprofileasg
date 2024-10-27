@@ -862,6 +862,18 @@ section.app_section .img-box img {
   width: 100%; /* Pastikan lebar penuh agar bisa memusatkan konten */
 }
 
+/* end footer section*/
+/*# sourceMappingURL=style.css.map */
+
+.text {
+  display: flex;
+  justify-content: center; /* Untuk memusatkan secara horizontal */
+  align-items: center; /* Untuk memusatkan secara vertikal jika ada tinggi */
+  color: #072e85;
+  text-align: center; /* Menjaga teks tetap rapi */
+  width: 100%; /* Pastikan lebar penuh agar bisa memusatkan konten */
+}
+
 .popup {
   display: none; /* Sembunyikan pop-up secara default */
   position: fixed;
@@ -897,5 +909,37 @@ section.app_section .img-box img {
   cursor: pointer;
 }
 
+
+  .popup {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .popup-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+  }
+  
+  .close {
+      cursor: pointer;
+      float: right;
+      font-size: 20px;
+  }
+  
+  .box2 {
+      cursor: pointer;
+      width: 200px; /* Atur lebar sesuai kebutuhan */
+      text-align: center;
+  }
+ 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
